@@ -1,0 +1,20 @@
+{
+  "name": "hello-lib",
+  "version": "0.0.1",
+  "description": "A very useful JavaScript library",
+  "homepage": "https://github.com/mourner/hello-lib",
+  "keywords": [
+  ],
+  "author": "Vladimir Agafonkin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mourner/hello-lib.git"
+  },
+  "main": "hello-lib.js",
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
