@@ -1,9 +1,8 @@
+
 var helloLib = require('../hello-lib.js'),
-    assert = require('assert');
+    t = require('tape');
 
-describe('helloLib', function () {
-
-    it('return Hello World', function () {
-        assert.equal(helloLib(), "Hello World");
-    });
+t('returns Hello World', function (t) {
+    t.equal(helloLib(), "Hello World");
+    t.end();
 });
