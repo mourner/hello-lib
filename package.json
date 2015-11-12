@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "hello-lib",
   "version": "1.0.0",
   "description": "A boilerplate for my JS projects.",
   "main": "index.js",
