@@ -1,14 +1,22 @@
-# Hello Lib
+## hello-lib
 
-Hello Lib is a JavaScript library for something very useful by [Vladimir Agafonkin](http://github.com/mourner).
-Wait, actually it's a boilerplate for my small JS libraries to make it easy to get started.
+A starting template for my small JS libraries. Uses ESLint, Tap and Browserify.
 
-## Demos
+[![Build Status](https://travis-ci.org/mapbox/lineclip.svg?branch=master)](https://travis-ci.org/mapbox/lineclip)
+[![Coverage Status](https://coveralls.io/repos/mapbox/lineclip/badge.svg?branch=master&service=github)](https://coveralls.io/github/mapbox/lineclip?branch=master)
+[![](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)
 
-* [Awesome Demo](http://mourner.github.io/hello-lib/demo/index.html)
+### Demos
 
-## Usage
+* [Awesome Demo](http://mourner.github.io/hello-lib/demo)
+
+### Install
+
+* NPM: `npm install hello`
+* Browser-compatible CDN link: [hello.js](https://npmcdn.com/hello/dist/hello.js)
+
+### Usage
 
 ```js
-var foo = helloLib();
+var foo = hello();
 ```

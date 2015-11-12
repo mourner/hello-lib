@@ -1,8 +1,9 @@
+'use strict';
 
-var helloLib = require('../hello-lib.js'),
-    t = require('tape');
+var hello = require('../'),
+    t = require('tap').test;
 
 t('returns Hello World', function (t) {
-    t.equal(helloLib(), "Hello World");
+    t.equal(hello(), 'Hello World');
     t.end();
 });
