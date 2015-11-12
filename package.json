@@ -15,7 +15,7 @@
     "test": "tap test/test.js",
     "cov": "tap test/test.js --cov",
     "build": "browserify -s hello index.js > hello.js",
-    "prepublish": ""
+    "prepublish": "npm run build"
   },
   "eslintConfig": {
     "extends": "mourner"
