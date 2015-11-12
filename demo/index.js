@@ -1,2 +1,1 @@
-
-// code
+console.log(hello());
