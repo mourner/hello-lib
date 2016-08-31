@@ -11,7 +11,7 @@ A starting template for my small JS libraries. Uses ESLint, Tap and Browserify.
 ### Install
 
 * NPM: `npm install hello-lib`
-* Browser-compatible CDN link: [hello.js](https://npmcdn.com/hello-lib/hello.js)
+* Browser-compatible CDN link: [hello.js](https://unpkg.com/hello-lib/hello.js)
 
 ### Usage
 
